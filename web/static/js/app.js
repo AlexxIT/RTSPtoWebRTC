@@ -21,6 +21,7 @@ pc.ontrack = function(event) {
   el.autoplay = true
   el.controls = true
   el.width = 600
+  el.playsinline = true
   document.getElementById('remoteVideos').appendChild(el)
 }
 
